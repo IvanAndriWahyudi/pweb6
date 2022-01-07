@@ -56,5 +56,15 @@ switch (input) {
     break;
 
   case "6":
+    //while
+    console.log("WHILE");
+    var hasil = "1";
+    var a = prompt("Masukan Angka = ");
+    var b = a;
+    while (b >= 1) {
+      hasil = hasil * b;
+      b--;
+    }
+    console.log("Hasil " + a + "!(Faktorial) = " + hasil);
     break;
 }
