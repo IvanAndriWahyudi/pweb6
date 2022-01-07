@@ -20,6 +20,12 @@ switch (input) {
     break;
 
   case "3":
+    //forloop
+    var kelipatan = prompt("Masukan Angka Kelipatan = ");
+    var i;
+    for (i = 1; i <= 20; i++) {
+      if (i % kelipatan == 0) console.log("angka = " + i);
+    }
     break;
 
   case "4":
