@@ -47,6 +47,12 @@ switch (input) {
     break;
 
   case "5":
+    //for of loop
+    console.log("For Of Loop");
+    var hewan = ["Kucing", "Burung", "Ular", "Belalang"];
+    for (var hwn of hewan) {
+      console.log(hwn);
+    }
     break;
 
   case "6":
