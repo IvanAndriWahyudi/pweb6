@@ -13,6 +13,10 @@ switch (input) {
     break;
 
   case "2":
+    //Ternary operator
+    var tebakangka = prompt("Masukan Tebakan Angka 1-3 = ");
+    var tebak = tebakangka == 2 ? "Benar" : "Salah";
+    console.log("Tebakan Anda " + tebak);
     break;
 
   case "3":
