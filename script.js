@@ -1,7 +1,7 @@
 //Do While
 do {
   //switch case
-  var input = prompt("pilih 1.if/else, 2.Ternary operator, 3.For Loop, 4.For in loop, 5.For off Loop, 6.while");
+  var input = prompt("pilih 1.if/else, 2.Ternary operator, 3.For Loop, 4.For in loop, 5.For off Loop, 6.while, 7.Try catch");
   switch (input) {
     case "1":
       //if/else
@@ -74,6 +74,15 @@ do {
         b--;
       }
       console.log("Hasil " + a + "!(Faktorial) = " + hasil);
+      break;
+
+    case "7":
+      try {
+        document.write(belalang);
+      } catch (error) {
+        console.log(error);
+      }
+
       break;
   }
   var lagi = confirm("Apakah ingin mengulang");
